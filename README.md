@@ -21,7 +21,7 @@ FitBit For QB-Core
 
 
 
-#ShowCase
+# ShowCase
 ![Main Screen](https://cdn.discordapp.com/attachments/910613937555406868/911735554826194974/unknown.png)
 ![Step Counter](https://cdn.discordapp.com/attachments/910613937555406868/911735628457205860/unknown.png)
 ![Distance On Foot](https://cdn.discordapp.com/attachments/910613937555406868/911735949266935828/unknown.png)
