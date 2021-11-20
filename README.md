@@ -28,5 +28,5 @@ FitBit For QB-Core
 ![Direction In Car](https://cdn.discordapp.com/attachments/910613937555406868/911736093576142868/unknown.png)
 
 
-## Big Tnx for OneSource and Newtonzz for their [PassionRP-Public Source](https://github.com/Newtonzz/PassionRP-Public) 
+## Big Tnx for Newtonzz for their [PassionRP-Public Source](https://github.com/Newtonzz/PassionRP-Public) 
 and [qb-fitbit](https://github.com/qbcore-framework/qb-fitbit)
