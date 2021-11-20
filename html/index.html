@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./style.css">
     <title>QBCore Fitbit</title>
 </head>
+
     <body>
         <div class="container">
             <img src="./watch.png" alt="watch" class="watch">
@@ -19,6 +20,8 @@
                     <!-- <div class="fitbit-app" data-app="settings"><i class="fa fa-cog" style="color: #d3d3d3;"></i></div> -->
                     <div class="fitbit-app" data-app="food"><i class="fa fa-utensils" style="color: #3da83b;"></i></div>
                     <div class="fitbit-app" data-app="thirst"><i class="fa fa-tint" style="color: #6767dd;"></i></div>
+                    <div class="fitbit-app" data-app="step"><i class="fas fa-shoe-prints" style="color: #f18e0c;"></i></div>
+                    <div class="fitbit-app" data-app="direction"><i class="fas fa-directions" style="color: #67ddc9;"></i></div>
                 </div>
 
                 <div class="food-app">
@@ -42,6 +45,29 @@
                     <div class="app-buttons">
                         <div class="app-button save-thirst-settings"><p>Save</p></div>
                         <div class="app-button back-thirst-settings"><p>Back</p></div>
+                    </div>
+                </div>
+                <div class="step-app">
+                    <span class="app-titel">Steps</span>
+                    <div class="step-circle">
+                        <div class="circle-text">
+                            <span>0</span>
+                        </div>
+                    </div>
+                    <div class="app-buttons">
+                        <div class="app-button reset-steps"><p>Reset</p></div>
+                        <div class="app-button back-step-settings"><p>Back</p></div>
+                    </div>
+                </div>
+                <div class="direction-app">
+                    <span class="app-titel"  id="directionTitle">direction</span>
+                    <div class="direction-circle">
+                        <div class="direction-text">
+                            <span>0</span>
+                        </div>
+                    </div>
+                    <div class="app-buttons">
+                        <div class="app-button back-direction-settings"><p>Back</p></div>
                     </div>
                 </div>
             </div>

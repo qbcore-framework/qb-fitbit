@@ -162,3 +162,115 @@ input[type="number"] {
     padding-top: 1vh;
     font-size: 1.8vh;
 }
+
+
+
+.step-app {
+    display: none;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+
+.step-circle {
+    position: relative;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    top: 19.5px;
+    margin: auto;
+}
+
+.step-circle:before {
+    border-radius: 50%;
+    border-top: 4px solid #0099FF;
+    content: " ";
+    display: block;
+    position:absolute;
+    top: 10%;
+    left: 10%;
+    height: 80%;
+    width: 80%;
+    animation: rotation 2.5s linear infinite;
+}
+  
+.step-circle:after {
+    border-radius: 50%;
+    border-bottom: 4px solid #0099FF;
+    content: " ";
+    display: block;
+    height: 100%;
+    width: 100%;
+    animation: rotation-reverse 2.5s linear infinite;
+    position:absolute;
+    top: 0;
+}
+
+
+
+.direction-app {
+    display: none;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+
+.direction-circle {
+    position: relative;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    top: 19.5px;
+    margin: auto;
+}
+
+.direction-circle:before {
+    border-radius: 50%;
+    border-top: 4px solid #0099FF;
+    content: " ";
+    display: block;
+    position:absolute;
+    top: 10%;
+    left: 10%;
+    height: 80%;
+    width: 80%;
+    animation: rotation 2.5s linear infinite;
+}
+  
+.direction-circle:after {
+    border-radius: 50%;
+    border-bottom: 4px solid #0099FF;
+    content: " ";
+    display: block;
+    height: 100%;
+    width: 100%;
+    animation: rotation-reverse 2.5s linear infinite;
+    position:absolute;
+    top: 0;
+}
+.direction-text{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    padding-top: 3vh;
+    color: #fff;
+}
+
+
+.circle-text{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    padding-top: 3vh;
+    color: #fff;
+}
+
+.icorote45{
+    transform: rotate(45deg);
+}
+.icorote315{
+    transform: rotate( 315deg);
+}
+
