@@ -156,9 +156,9 @@ end)
 
 -- Threads
 
-Citizen.CreateThread(function()
+CreateThread(function()
     while true do
-        Citizen.Wait(5 * 60 * 1000)
+        Wait(5 * 60 * 1000)
         if LocalPlayer.state.isLoggedIn then
             QBCore.Functions.TriggerCallback('qb-fitbit:server:HasFitbit', function(hasItem)
                 if hasItem then

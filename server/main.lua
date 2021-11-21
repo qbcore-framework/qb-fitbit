@@ -5,8 +5,7 @@ QBCore.Functions.CreateUseableItem("fitbit", function(source, item)
     TriggerClientEvent('qb-fitbit:use', source)
 end)
 
-RegisterServerEvent('qb-fitbit:server:setValue')
-AddEventHandler('qb-fitbit:server:setValue', function(type, value)
+RegisterNetEvent('qb-fitbit:server:setValue', function(type, value)
     local src = source
     local ply = QBCore.Functions.GetPlayer(src)
     local fitbitData = {}
