@@ -145,7 +145,7 @@ end)
 
 RegisterNUICallback('setStepCount', function(data)
 
-    PRPCore.Functions.Notify('Fitbit: Step counter reset!')
+    QBCore.Functions.Notify('Fitbit: Step counter reset!')
     StatSetFloat(`mp0_dist_walking`, 0.0, true)
     StatSetFloat(`mp0_dist_running`, 0.0, true)
     m_steps = 0
