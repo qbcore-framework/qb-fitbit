@@ -52,7 +52,7 @@ $(document).on('click', '.fitbit-app', function (e) {
 
     $(openedApp).css({ "display": "none" });
     $("." + pressedApp + "-app").css({ "display": "block" });
-    if (currentapp === "step-app") {
+    if (openedApp === "step-app") {
         $('.circle-text span').text(steps);
     };
     openedApp = pressedApp;
