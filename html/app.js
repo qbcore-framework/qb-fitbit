@@ -8,7 +8,7 @@ $(document).ready(function() {
     window.addEventListener('message', function(event) {
         const eventData = event.data;
 
-        if (eventData.action === 'openWatch') {
+        if (event.data.action === 'openWatch') {
             qbFitbit.Open();
         }
     });
