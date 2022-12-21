@@ -10,42 +10,39 @@
     <link rel="stylesheet" href="./style.css">
     <title>QBCore Fitbit</title>
 </head>
-    <body>
-        <div class="container">
-            <img src="./watch.png" alt="watch" class="watch">
-
-            <div class="watch-screen">
-                <div class="main-screen">
-                    <!-- <div class="fitbit-app" data-app="settings"><i class="fa fa-cog" style="color: #d3d3d3;"></i></div> -->
-                    <div class="fitbit-app" data-app="food"><i class="fa fa-utensils" style="color: #3da83b;"></i></div>
-                    <div class="fitbit-app" data-app="thirst"><i class="fa fa-tint" style="color: #6767dd;"></i></div>
+<body>
+    <div class="container">
+        <img src="./watch.png" alt="watch" class="watch">
+        <div class="watch-screen">
+            <div class="main-screen">
+                <!-- <div class="fitbit-app" data-app="settings"><i class="fa fa-cog" style="color: #d3d3d3;"></i></div> -->
+                <div class="fitbit-app food" data-app="food"><i class="fa fa-utensils"></i></div>
+                <div class="fitbit-app thirst" data-app="thirst"><i class="fa fa-tint"></i></div>
+            </div>
+            <div class="food-app">
+                <span class="app-title">Nutrition</span>
+                <div class="alert-setting">
+                    <p>At what % would you like an alert?</p>
                 </div>
-
-                <div class="food-app">
-                    <span class="app-titel">Nutrition</span>
-                    <div class="food-alert-setting">
-                        <p>At what % would you like an alert?</p>
-                    </div>
-                    <input type="number" class="food-precentage" placeholder="50%" min="1" max="100">
-                    <div class="app-buttons">
-                        <div class="app-button save-food-settings"><p>Save</p></div>
-                        <div class="app-button back-food-settings"><p>Back</p></div>
-                    </div>
+                <input type="number" class="percentage" placeholder="50%" min="1" max="100">
+                <div class="app-buttons">
+                    <div class="app-button save-food-settings"><p>Save</p></div>
+                    <div class="app-button back-food-settings"><p>Back</p></div>
                 </div>
-
-                <div class="thirst-app">
-                    <span class="app-titel">Thirst</span>
-                    <div class="food-alert-setting">
-                        <p>At what % would you like an alert?</p>
-                    </div>
-                    <input type="number" class="food-precentage" placeholder="50%" min="1" max="100">
-                    <div class="app-buttons">
-                        <div class="app-button save-thirst-settings"><p>Save</p></div>
-                        <div class="app-button back-thirst-settings"><p>Back</p></div>
-                    </div>
+            </div>
+            <div class="thirst-app">
+                <span class="app-title">Thirst</span>
+                <div class="alert-setting">
+                    <p>At what % would you like an alert?</p>
+                </div>
+                <input type="number" class="percentage" placeholder="50%" min="1" max="100">
+                <div class="app-buttons">
+                    <div class="app-button save-thirst-settings"><p>Save</p></div>
+                    <div class="app-button back-thirst-settings"><p>Back</p></div>
                 </div>
             </div>
         </div>
-        <script src="./app.js"></script>
-    </body>
+    </div>
+<script src="./app.js"></script>
+</body>
 </html>
